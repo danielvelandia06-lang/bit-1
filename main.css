@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  background: linear-gradient(rgba(40, 40, 40, 0.85), rgba(40, 40, 40, 0.85)),
+    url("imagenes/WhatsApp\ Image\ 2025-12-29\ at\ 15.36.47.jpeg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  font-family: "Pirata One", cursive;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-align: center;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+section {
+  max-width: 1100px;
+  margin: 80px auto;
+  padding: 50px;
+  position: relative;
+  background: rgba(0, 0, 0, 0.45);
+  border: 2px solid rgba(255, 215, 0, 0.4);
+}
+.card-img-top {
+  max-width: 600px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+p,
+li,
+main {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 25px;
+}
+
+section::before,
+section::after {
+  content: "";
+  position: absolute;
+  width: 120px;
+  height: 120px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+.card {
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: 1px solid rgba(255, 215, 0, 0.3);
+}
+
+.card-title {
+  text-align: center;
+  letter-spacing: 2px;
+}
+.carousel-item img {
+  max-height: 500px;
+  object-fit: cover;
+}
