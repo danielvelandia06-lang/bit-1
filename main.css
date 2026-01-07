@@ -85,3 +85,13 @@ section::after {
   max-height: 500px;
   object-fit: cover;
 }
+
+.contacto {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 12px 0;
+}
+.contacto button {
+  min-width: 180px;
+}
